@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.countdownTimer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: blanchedalmond;
+  margin: 20px;
+  padding: 20px;
+}
+
+.countdownTimer-input {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(249, 244, 244);
+  padding: 10px;
+}
+
+.countdownTimer-button {
+  background-color: rgb(30, 106, 182);
+  border: none;
+  border-radius: 5px;
+  margin: 5px auto;
+  padding: 5px 20px;
+  color: white;
+}
+
+.countdownTimer-display {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
